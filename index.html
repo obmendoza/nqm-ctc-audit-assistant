@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NQM CTC Audit Assistant</title>
+      <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+      <header class="header-banner">
+                <div class="header-title">NQM Clear-to-Close Audit Assistant</div>div>
+                <div class="header-loan-info">
+                              <span>Loan: 24-1107-00321</span>
+                            <span class="separator">&bull;</span>
+                            <span>Borrower: Maria &amp; Daniel Santos</span>
+                            <span class="separator">&bull;</span>
+                            <span>Program: NQM Flex 12-Month Bank Statement</span>
+                </div>div>
+              <div class="header-status">Status: <span id="auditStatusBadge">In Progress</span></div>div>
+              <div class="header-metrics">
+                          <span>Investor: Deephaven Capital</span>
+                          <span>LTV: 78%</span>
+                          <span>DTI: 41%</span>
+                          <span>DSCR: 1.32x</span>
+                          <span>Reserves: 6 / 9 months</span>
+              </div>div>
+      </header>header>
+
+    <aside class="left-sidebar" id="leftSidebar">
+            <div class="sidebar-label">Navigation</div>div>
+            <div class="nav-item active">Audit Overview</div>div>
+            <div class="nav-item">Conditions</div>div>
+            <div class="nav-item">Income Review</div>div>
+            <div class="nav-item">Asset Review</div>div>
+            <div class="nav-item">Credit Review</div>div>
+            <div class="nav-item">Property / Title</div>div>
+            <div class="nav-item">Compliance</div>div>
+            <div class="nav-item">Fraud Detection</div>div>
+            <div class="nav-item">Agent Activity Log</div>div>
+            <div class="role-section">
+                        <div class="sidebar-label">View as:</div>div>
+                        <button class="role-btn active" data-role="auditor">Auditor</button>button>
+                        <button class="role-btn" data-role="processor">Processor</button>button>
+                        <button class="role-btn" data-role="underwriter">Underwriter</button>button>
+            </div>div>
+    </aside>aside>
+
+    <main class="main-content">
+            <div class="tab-bar" id="tabBar"></div>div>
+            <div class="content-area" id="mainContent"></div>div>
+    </main>main>
+
+    <aside class="right-sidebar" id="rightSidebar"></aside>aside>
+
+    <div class="modal-overlay" id="modal">
+            <div class="modal-container">
+                        <div class="modal-header">
+                                        <h3 id="modalTitle">Modal Title</h3>h3>
+                                        <button class="modal-close" onclick="closeModal()">&times;</button>button>
+                        </div>div>
+                        <div class="modal-body" id="modalBody"></div>div>
+            </div>div>
+    </div>div>
+
+    <div class="notification" id="notification"></div>div>
+
+    <script src="js/data.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/modals.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/init.js"></script>
+</body>
+</html>html></span></span>
+</body></title>
+  </head>
